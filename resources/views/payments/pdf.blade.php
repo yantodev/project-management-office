@@ -73,6 +73,7 @@
                 </td>
                 <td style="text-align: center;vertical-align: bottom;">
                     <strong>{{ auth()->user()->name }}</strong> <br>
+                    <img src="{{asset("assets/imgs/ttd.png")}}" alt="stempel" width="150px"><br>
                     {{ Option::get('agency_name') }}
                 </td>
             </tr>

@@ -176,7 +176,8 @@
             <tr>
                 <td colspan="3" class="text-center">
                     {{ Option::get('agency_city') ? Option::get('agency_city').', ' : '' }}
-                    {{ date_id($invoice->date) }} <br><br><br><br>
+                    {{ date_id($invoice->date) }} <br>
+                    <img src="{{asset("assets/imgs/ttd.png")}}" alt="stempel" width="100px">
                     <div style="font-weight: bold;">{{ Option::get('agency_name') }}</div>
                 </td>
             </tr>
